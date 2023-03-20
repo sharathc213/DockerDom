@@ -24,11 +24,20 @@ The platform provides a user-friendly interface that allows users to manage thei
 
 
 # How To Install
+'''
 pip install django \n
 pip install docker \n
+
+docker run \
+	--name docker-exec-web-console \
+	-p 9999:8888 \
+	-v /var/run/docker.sock:/var/run/docker.sock \
+	bitbull/docker-exec-web-console
+  
+  
 python3 manage.py runserver \n
 
-
+'''
 
 # usage:
 
