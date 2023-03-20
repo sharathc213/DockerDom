@@ -111,4 +111,11 @@ def pullimg(request):
         img_name=request.POST.get('img_name')
         res=client.images.pull(img_name)
         return JsonResponse({'msg':'sucess'})
+    
+def console(request):
+    container=request.GET['container']
+    shell=request.GET['shell']
+    container_name = client.containers.get(container)
+    name=container_name.attrs['Config']['Image']
+    return render(request,'Console.html',{'container':container,'shell':shell,'name':name})
         
