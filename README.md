@@ -24,9 +24,9 @@ The platform provides a user-friendly interface that allows users to manage thei
 
 
 # How To Install
-'''
-pip install django \n
-pip install docker \n
+```
+pip install django 
+pip install docker 
 
 docker run \
 	--name docker-exec-web-console \
@@ -35,9 +35,9 @@ docker run \
 	bitbull/docker-exec-web-console
   
   
-python3 manage.py runserver \n
+python3 manage.py runserver 
 
-'''
+```
 
 # usage:
 
@@ -46,4 +46,13 @@ http://127.0.0.1:8000/
 # Screenshot
 
 ![alt text](196151615-cba29330-4ca4-49f1-9dd3-6e55bb84ccd8.png)
+
+
+
+# Acknowledgements
+This project includes the use of the following open source project:
+
+docker-exec-web-console[here](https://github.com/bitbull-team/docker-exec-web-console) by bitbull-team[here](https://github.com/bitbull-team)
+
+We have used the Docker Exec Web Console project to enable users to communicate with the shell inside Docker containers from the web UI of our project. We would like to thank the creators of this project for their hard work and contribution to the open source community.
 
