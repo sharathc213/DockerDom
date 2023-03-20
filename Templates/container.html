@@ -30,6 +30,20 @@
                     <li>
                       <a
                         class="dropdown-item"
+                        href="/console?container={{container.id}}&shell=/bin/bash"
+                        >Console(bash)</a
+                      >
+                    </li>
+                    <li>
+                        <a
+                          class="dropdown-item"
+                          href="/console?container={{container.id}}&shell=/bin/sh"
+                          >Console(sh)</a
+                        >
+                      </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
                         href="#"
                         onclick="deletec('{{container.id}}')"
                         >Delete</a
@@ -42,7 +56,6 @@
                   <h2 class="card-title">
                     <span>Status</span>| {{container.state}}
                   </h2>
-                  
 
                   <div class="d-flex align-items-center">
                     <div
@@ -53,12 +66,6 @@
                     <div class="ps-3">
                       <span class="text-muted small pt-2 ps-1"
                         >{{container.name}}</span
-                      >
-                    </div>
-                    </div><br>
-                    <div class="ps-3">
-                      <span class="text-muted small pt-2 ps-1"
-                        >Image:{{container.image}}</span
                       >
                     </div>
                   </div>
