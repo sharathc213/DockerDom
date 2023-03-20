@@ -16,4 +16,5 @@ urlpatterns = [
     path('deletec',views.deletec,name='deletec'),
     path('startc',views.startc,name='startc'),
     path('pullimg',views.pullimg,name='pullimg'),
+    path('console',views.console,name='console'),
 ]
