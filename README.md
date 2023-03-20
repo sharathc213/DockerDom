@@ -52,7 +52,7 @@ http://127.0.0.1:8000/
 # Acknowledgements
 This project includes the use of the following open source project:
 
-docker-exec-web-console[here](https://github.com/bitbull-team/docker-exec-web-console) by bitbull-team[here](https://github.com/bitbull-team)
+[docker-exec-web-console](https://github.com/bitbull-team/docker-exec-web-console) by [bitbull-team](https://github.com/bitbull-team)
 
 We have used the Docker Exec Web Console project to enable users to communicate with the shell inside Docker containers from the web UI of our project. We would like to thank the creators of this project for their hard work and contribution to the open source community.
 
